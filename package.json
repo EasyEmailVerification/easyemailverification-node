@@ -1,0 +1,25 @@
+{
+  "name": "easyemailverification",
+  "version": "1.0.0",
+  "description": "Official Node.js client for the Easy Email Verification API: verify email addresses one by one, in batches of 50 or as bulk lists.",
+  "type": "module",
+  "main": "./src/index.js",
+  "types": "./src/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./src/index.d.ts",
+      "default": "./src/index.js"
+    }
+  },
+  "files": ["src", "README.md", "LICENSE", "CHANGELOG.md"],
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "test": "node --test test/*.test.js"
+  },
+  "keywords": ["email verification", "email validation", "email checker", "verify email", "bounce", "email list cleaning", "disposable email", "catch-all"],
+  "homepage": "https://www.easyemailverification.com/en-US/api",
+  "repository": { "type": "git", "url": "git+https://github.com/EasyEmailVerification/easyemailverification-node.git" },
+  "bugs": { "url": "https://github.com/EasyEmailVerification/easyemailverification-node/issues", "email": "support@easyemailverification.com" },
+  "author": "Easy Email Verification <support@easyemailverification.com> (https://www.easyemailverification.com)",
+  "license": "MIT"
+}
